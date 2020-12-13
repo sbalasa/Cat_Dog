@@ -21,8 +21,8 @@ def main():
     print("Cat says: ", c.talk())
     print("Dog says: ", d.talk())
     print()
-    print("Cat says: ", c.__class__.talk(Dog))
-    print("Dog says: ", d.__class__.talk(Cat))
+    print("Cat says: ", c.__class__.talk(Dog()))
+    print("Dog says: ", d.__class__.talk(Cat()))
 
 
 if __name__ == "__main__":
