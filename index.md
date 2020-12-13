@@ -1,5 +1,4 @@
-# Cat_Dog
-## Make a Cat Bark in Python
+# Make a Cat Bark in Python
 
 The headline must've been confusing to you, well here we will walk you through it:
 
@@ -35,8 +34,8 @@ Dog says:  Bow Bow
 This is how you can make a Cat bark and a Dog meow ;)
 
 ```
-print("Cat says: ", c.__class__.talk(d))
-print("Dog says: ", d.__class__.talk(c))
+print("Cat says: ", c.__class__.talk(Dog()))
+print("Dog says: ", d.__class__.talk(Cat()))
 
 Cat says:  Bow Bow
 Dog says:  Meow Meow
