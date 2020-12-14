@@ -1,6 +1,6 @@
 # Make a Cat Bark in Python
 
-The headline must've been confusing to you, well here we will walk you through it:
+The headline must've been confusing to you, well here I will walk you through it:
 
 Let's create two objects in python, one a cat object which meows and a dog object which barks.
 
